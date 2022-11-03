@@ -20,3 +20,9 @@ dataset[dataset_cols] = dataset[dataset_cols].apply(le.fit_transform)
 print("\nNew dataset | First 5 rows:")
 observations = dataset.head(5)
 print (observations)
+
+#3
+print("\nSummary statistics:")
+print(dataset.describe())
+print('\nmed')
+print(dataset.median())
