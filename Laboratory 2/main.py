@@ -84,6 +84,9 @@ print(dataset.isnull().sum())
 # plt.show()
 
 #7
+print("\nLogistic regression:")
+
+#8
 print("\nProbit model:")
 X = dataset[['k5', 'k618', 'age', 'wc', 'hc', 'lwg', 'inc']]
 Y = dataset['lfp']
